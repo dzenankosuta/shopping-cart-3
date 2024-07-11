@@ -1,0 +1,28 @@
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.navlink-active {
+  color: #f47422;
+  list-style: none;
+  transition: all 200ms ease-in;
+}
+
+.navlink-active:hover {
+  color: #ffffff;
+}
+
+.navlink-not-active:hover {
+  color: #f47422;
+}
+
+.navlink-not-active {
+  color: #ffffff;
+  list-style: none;
+  transition: all 200ms ease-in;
+}
+
+.main-app {
+  min-height: 78vh;
+}
