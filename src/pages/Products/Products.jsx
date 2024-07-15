@@ -1,35 +1,42 @@
-import productsJSON from "../../common/products.json";
+/* eslint-disable react/jsx-key */
 import ProductCard from "../../components/ProductCard/ProductCard";
+import products from "../../common/products.json";
 import "./Products.css";
-
+import { useContext, useEffect, useState } from "react";
+import Pagination from "../../components/Pagination/Pagination";
+import { AppContext } from "../../context/AppContext";
 export default function Products() {
-  // const [products, setProducts] = useState(productsJSON);
-  // const setNewProducts = () => {
-  //   const newProducts = products.map((product, index) => {
-  //     return {
-  //       ...product,
-  //       id: index + 1,
-  //       stock: Math.floor(Math.random() * 40) + 10,
-  //     };
-  //   });
-  //   setProducts(newProducts);
-  // };
-
-  // useEffect(() => {
-  //   setNewProducts();
-  // }, []);
-  // console.log(products);
+  const { addToCart } = useContext(AppContext);
+  const [page, setPage] = useState(1);
+  const proizvod = products.length;
+  const brojPoStranici = 15;
+  const brojStranica = Math.ceil(proizvod / brojPoStranici);
+  useEffect(() => {
+    window.scrollTo({
+      behavior: "smooth",
+      top: 0,
+    });
+  }, [page]);
   return (
-    <div className="products-page">
-      {productsJSON.map((product) => (
-        <ProductCard
-          key={product.id}
-          imageUrl={product.image_url}
-          product={product.title}
-          description={product.short_description}
-          price={product.current_price}
-        />
-      ))}
-    </div>
+    <>
+      <div className="wrapper-product">
+        {products
+          .map((product) => {
+            return (
+              <ProductCard
+                imageUrl={product.image_url}
+                description={product.short_description}
+                title={product.title}
+                price={product.current_price}
+                onClick={() => addToCart(product)}
+              />
+            );
+          })
+          .slice(brojPoStranici * (page - 1), brojPoStranici * page)}
+      </div>
+      <div className="pagination">
+        <Pagination brojStranica={brojStranica} setPage={setPage} page={page} />
+      </div>
+    </>
   );
 }
