@@ -1,0 +1,28 @@
+.product-card {
+  padding: 40px;
+  border: 2px solid gray;
+  width: 300px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  box-shadow: 0 0 20px 5px gray;
+}
+
+.img {
+  width: 100%;
+  border-radius: 10px;
+}
+.btn-card {
+  display: flex;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  position: relative;
+}
+.icon-card {
+  position: absolute;
+  left: 10px;
+  bottom: 5px;
+}

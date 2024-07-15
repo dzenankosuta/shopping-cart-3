@@ -5,7 +5,9 @@
     "brand_name": "adidas",
     "title": "adidas VL Colurt 3.0",
     "short_description": "Muške lifestyle patike",
-    "current_price": "8.399,00"
+    "current_price": "8.399,00",
+    "id": 1,
+    "stock": 22
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/DV4/DV4022-103/images/thumbs_350/DV4022-103_350_350px.jpg",
@@ -13,7 +15,9 @@
     "brand_name": "Nike",
     "title": "Nike Winflo 10",
     "short_description": "Muške patike za trčanje",
-    "current_price": "10.999,00"
+    "current_price": "10.999,00",
+    "id": 2,
+    "stock": 34
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/MR5/MR530RE/images/thumbs_350/MR530RE_350_350px.jpg",
@@ -21,7 +25,9 @@
     "brand_name": "New Balance",
     "title": "New Balance 530",
     "short_description": "Lifestyle patike za odrasle",
-    "current_price": "8.639,21"
+    "current_price": "8.639,21",
+    "id": 3,
+    "stock": 15
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/ID2/ID2952/images/thumbs_350/ID2952_350_350px.jpg",
@@ -29,7 +35,9 @@
     "brand_name": "adidas",
     "title": "adidas Grand Court 2.0",
     "short_description": "Muške lifestyle patike",
-    "current_price": "7.499,00"
+    "current_price": "7.499,00",
+    "id": 4,
+    "stock": 47
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/FB9/FB9658-100/images/thumbs_350/FB9658-100_350_350px.jpg",
@@ -37,7 +45,9 @@
     "brand_name": "Nike",
     "title": "Nike Air Max 90",
     "short_description": "Muške lifestyle patike",
-    "current_price": "14.399,00"
+    "current_price": "14.399,00",
+    "id": 5,
+    "stock": 41
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/IE4/IE4842/images/thumbs_350/IE4842_350_350px.jpg",
@@ -45,7 +55,9 @@
     "brand_name": "adidas",
     "title": "adidas Terrex Trailmaker 2.0",
     "short_description": "Muške outdoor patike",
-    "current_price": "8.499,00"
+    "current_price": "8.499,00",
+    "id": 6,
+    "stock": 40
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/CD4/CD4165-100/images/thumbs_350/CD4165-100_350_350px.jpg",
@@ -53,7 +65,9 @@
     "brand_name": "Nike",
     "title": "Nike AIR MAX EXCEE",
     "short_description": "Muške lifestyle patike",
-    "current_price": "11.999,00"
+    "current_price": "11.999,00",
+    "id": 7,
+    "stock": 27
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/IG4/IG4768/images/thumbs_350/IG4768_350_350px.jpg",
@@ -61,7 +75,9 @@
     "brand_name": "adidas",
     "title": "adidas X_Plrphase",
     "short_description": "Muške lifestyle patike",
-    "current_price": "9.699,00"
+    "current_price": "9.699,00",
+    "id": 8,
+    "stock": 44
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/687/687977-114/images/thumbs_350/687977-114_350_350px.jpg",
@@ -69,7 +85,9 @@
     "brand_name": "Nike",
     "title": "Nike Air Max LTD 3",
     "short_description": "Muške lifestyle patike",
-    "current_price": "13.299,00"
+    "current_price": "13.299,00",
+    "id": 9,
+    "stock": 17
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/ID7/ID7690/images/thumbs_350/ID7690_350_350px.jpg",
@@ -77,7 +95,9 @@
     "brand_name": "adidas",
     "title": "adidas Terrex Free Hiker 2 Low",
     "short_description": "Muške outdoor patike",
-    "current_price": "14.399,00"
+    "current_price": "14.399,00",
+    "id": 10,
+    "stock": 36
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/HP6/HP6009/images/thumbs_350/HP6009_350_350px.jpg",
@@ -85,7 +105,9 @@
     "brand_name": "adidas",
     "title": "adidas Vs Pace 2.0",
     "short_description": "Muške lifestyle patike",
-    "current_price": "5.199,00"
+    "current_price": "5.199,00",
+    "id": 11,
+    "stock": 36
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/CW4/CW4555-107/images/thumbs_350/CW4555-107_350_350px.jpg",
@@ -93,7 +115,9 @@
     "brand_name": "Nike",
     "title": "Nike Air Max SC",
     "short_description": "Muške lifestyle patike",
-    "current_price": "9.499,00"
+    "current_price": "9.499,00",
+    "id": 12,
+    "stock": 43
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/ID6/ID6284/images/thumbs_350/ID6284_350_350px.jpg",
@@ -101,7 +125,9 @@
     "brand_name": "adidas",
     "title": "adidas VL Court 3.0",
     "short_description": "Muške lifestyle patike",
-    "current_price": "6.399,00"
+    "current_price": "6.399,00",
+    "id": 13,
+    "stock": 28
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/H00/H00462/images/thumbs_350/H00462_350_350px.jpg",
@@ -109,7 +135,9 @@
     "brand_name": "adidas",
     "title": "adidas Postmove",
     "short_description": "Muške lifestyle patike",
-    "current_price": "6.699,00"
+    "current_price": "6.699,00",
+    "id": 14,
+    "stock": 15
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/749/749680-001/images/thumbs_350/749680-001_350_350px.jpg",
@@ -117,7 +145,9 @@
     "brand_name": "Nike",
     "title": "Nike AIR MAX INVIGOR",
     "short_description": "Muške lifestyle patike",
-    "current_price": "10.999,00"
+    "current_price": "10.999,00",
+    "id": 15,
+    "stock": 48
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/GW3/GW3848/images/thumbs_350/GW3848_350_350px.jpg",
@@ -125,7 +155,9 @@
     "brand_name": "adidas",
     "title": "adidas Galaxy 6",
     "short_description": "Muške patike za trčanje",
-    "current_price": "4.999,00"
+    "current_price": "4.999,00",
+    "id": 16,
+    "stock": 37
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/DV2/DV2020-001/images/thumbs_350/DV2020-001_350_350px.jpg",
@@ -133,7 +165,9 @@
     "brand_name": "Nike",
     "title": "Nike Court Air Zoom Vapor Pro 2",
     "short_description": "Muške patike za tenis",
-    "current_price": "13.399,00"
+    "current_price": "13.399,00",
+    "id": 17,
+    "stock": 47
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/IG7/IG7317/images/thumbs_350/IG7317_350_350px.jpg",
@@ -141,7 +175,9 @@
     "brand_name": "adidas",
     "title": "adidas Osade",
     "short_description": "Muške lifestyle patike",
-    "current_price": "8.499,00"
+    "current_price": "8.499,00",
+    "id": 18,
+    "stock": 32
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/DV4/DV4022-003/images/thumbs_350/DV4022-003_350_350px.jpg",
@@ -149,7 +185,9 @@
     "brand_name": "Nike",
     "title": "Nike Air Winflo",
     "short_description": "Muške patike za trčanje",
-    "current_price": "9.799,00"
+    "current_price": "9.799,00",
+    "id": 19,
+    "stock": 26
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/FZ5/FZ5055-101/images/thumbs_350/FZ5055-101_350_350px.jpg",
@@ -157,7 +195,9 @@
     "brand_name": "Nike",
     "title": "Nike Air Zoom Pegasus 40",
     "short_description": "Muške patike za trčanje",
-    "current_price": "12.999,00"
+    "current_price": "12.999,00",
+    "id": 20,
+    "stock": 28
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/DV3/DV3853-002/images/thumbs_350/DV3853-002_350_350px.jpg",
@@ -165,7 +205,9 @@
     "brand_name": "Nike",
     "title": "Nike Pegasus 40",
     "short_description": "Muške patike za trčanje",
-    "current_price": "12.999,00"
+    "current_price": "12.999,00",
+    "id": 21,
+    "stock": 12
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/ID7/ID7110/images/thumbs_350/ID7110_350_350px.jpg",
@@ -173,7 +215,9 @@
     "brand_name": "adidas",
     "title": "adidas Breaknet 2.0",
     "short_description": "Muške lifestyle patike",
-    "current_price": "5.699,00"
+    "current_price": "5.699,00",
+    "id": 22,
+    "stock": 45
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/DM0/DM0829-001/images/thumbs_350/DM0829-001_350_350px.jpg",
@@ -181,7 +225,9 @@
     "brand_name": "Nike",
     "title": "Nike Air Max Alpha Trainer 5",
     "short_description": "Muške patike za trening",
-    "current_price": "8.899,00"
+    "current_price": "8.899,00",
+    "id": 23,
+    "stock": 28
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/ID9/ID9398/images/thumbs_350/ID9398_350_350px.jpg",
@@ -189,7 +235,9 @@
     "brand_name": "adidas",
     "title": "adidas Ultrabounce Tr",
     "short_description": "Muške patike za trčanje",
-    "current_price": "7.499,00"
+    "current_price": "7.499,00",
+    "id": 24,
+    "stock": 24
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/FQ8/FQ8111-331/images/thumbs_350/FQ8111-331_350_350px.jpg",
@@ -197,7 +245,9 @@
     "brand_name": "Nike",
     "title": "Nike Pegasus 40 Premium",
     "short_description": "Muške patike za trčanje",
-    "current_price": "14.479,20"
+    "current_price": "14.479,20",
+    "id": 25,
+    "stock": 10
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/DA6/DA6364-101/images/thumbs_350/DA6364-101_350_350px.jpg",
@@ -205,7 +255,9 @@
     "brand_name": "Nike",
     "title": "Nike Blazer Low '77 Vintage",
     "short_description": "Muške lifestyle patike",
-    "current_price": "9.999,00"
+    "current_price": "9.999,00",
+    "id": 26,
+    "stock": 18
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/FB2/FB2207-400/images/thumbs_350/FB2207-400_350_350px.jpg",
@@ -213,7 +265,9 @@
     "brand_name": "Nike",
     "title": "Nike Revolution 7",
     "short_description": "Muške patike za trčanje",
-    "current_price": "6.499,00"
+    "current_price": "6.499,00",
+    "id": 27,
+    "stock": 44
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/ID6/ID6275/images/thumbs_350/ID6275_350_350px.jpg",
@@ -221,7 +275,9 @@
     "brand_name": "adidas",
     "title": "adidas VL Colurt 3.0",
     "short_description": "Muške lifestyle patike",
-    "current_price": "6.699,00"
+    "current_price": "6.699,00",
+    "id": 28,
+    "stock": 21
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/DH0/DH0623-403/images/thumbs_350/DH0623-403_350_350px.jpg",
@@ -229,7 +285,9 @@
     "brand_name": "Nike",
     "title": "Nike Zegama",
     "short_description": "Muške patike za trčanje",
-    "current_price": "16.499,00"
+    "current_price": "16.499,00",
+    "id": 29,
+    "stock": 46
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/DJ7/DJ7381-006/images/thumbs_350/DJ7381-006_350_350px.jpg",
@@ -237,7 +295,9 @@
     "brand_name": "Nike",
     "title": "Nike Pegasus FlyEase",
     "short_description": "Muške patike za trčanje",
-    "current_price": "13.399,00"
+    "current_price": "13.399,00",
+    "id": 30,
+    "stock": 41
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/IF7/IF7487/images/thumbs_350/IF7487_350_350px.jpg",
@@ -245,7 +305,9 @@
     "brand_name": "adidas",
     "title": "adidas Daily 3.0",
     "short_description": "Muške lifestyle patike",
-    "current_price": "6.719,21"
+    "current_price": "6.719,21",
+    "id": 31,
+    "stock": 38
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/CK2/CK2944-002/images/thumbs_350/CK2944-002_350_350px.jpg",
@@ -253,7 +315,9 @@
     "brand_name": "Nike",
     "title": "Nike Venture Runner",
     "short_description": "Muške lifestyle patike",
-    "current_price": "7.899,00"
+    "current_price": "7.899,00",
+    "id": 32,
+    "stock": 31
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/DZ4/DZ4353-008/images/thumbs_350/DZ4353-008_350_350px.jpg",
@@ -261,7 +325,9 @@
     "brand_name": "Nike",
     "title": "Nike Jordan Max Aura 5",
     "short_description": "Muške patike za košarku",
-    "current_price": "12.999,00"
+    "current_price": "12.999,00",
+    "id": 33,
+    "stock": 42
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/FB1/FB1396-106/images/thumbs_350/FB1396-106_350_350px.jpg",
@@ -269,7 +335,9 @@
     "brand_name": "Nike",
     "title": "Nike Jordan Stay Loyal 3",
     "short_description": "Muške patike za košarku",
-    "current_price": "12.639,19"
+    "current_price": "12.639,19",
+    "id": 34,
+    "stock": 43
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/CK0/CK0898-400/images/thumbs_350/CK0898-400_350_350px.jpg",
@@ -277,7 +345,9 @@
     "brand_name": "Nike",
     "title": "Nike AIR MAX INVIGOR",
     "short_description": "Muške lifestyle patike",
-    "current_price": "10.999,00"
+    "current_price": "10.999,00",
+    "id": 35,
+    "stock": 21
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/DZ3/DZ3320-200/images/thumbs_350/DZ3320-200_350_350px.jpg",
@@ -285,7 +355,9 @@
     "brand_name": "Nike",
     "title": "Nike Tatum 1 \"Denim\"",
     "short_description": "Muške patike za košarku",
-    "current_price": "12.639,19"
+    "current_price": "12.639,19",
+    "id": 36,
+    "stock": 47
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/BV1/BV1171-100/images/thumbs_350/BV1171-100_350_350px.jpg",
@@ -293,7 +365,9 @@
     "brand_name": "Nike",
     "title": "Nike Air Max LTD 3",
     "short_description": "Muške lifestyle patike",
-    "current_price": "13.299,00"
+    "current_price": "13.299,00",
+    "id": 37,
+    "stock": 34
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/DN3/DN3686-110/images/thumbs_350/DN3686-110_350_350px.jpg",
@@ -301,7 +375,9 @@
     "brand_name": "Nike",
     "title": "Nike Jordan Jumpman Pro",
     "short_description": "Muške patike za košarku",
-    "current_price": "15.699,00"
+    "current_price": "15.699,00",
+    "id": 38,
+    "stock": 39
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/DM0/DM0829-010/images/thumbs_350/DM0829-010_350_350px.jpg",
@@ -309,7 +385,9 @@
     "brand_name": "Nike",
     "title": "Nike Air Max Alpha Trainer 5",
     "short_description": "Muške patike za trening",
-    "current_price": "8.899,00"
+    "current_price": "8.899,00",
+    "id": 39,
+    "stock": 30
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/DH2/DH2987-001/images/thumbs_350/DH2987-001_350_350px.jpg",
@@ -317,7 +395,9 @@
     "brand_name": "Nike",
     "title": "Nike Court Vision Low Next Nature",
     "short_description": "Muške lifestyle patike",
-    "current_price": "7.999,00"
+    "current_price": "7.999,00",
+    "id": 40,
+    "stock": 33
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/DM0/DM0829-403/images/thumbs_350/DM0829-403_350_350px.jpg",
@@ -325,7 +405,9 @@
     "brand_name": "Nike",
     "title": "Nike Air Max Alpha Trainer 5",
     "short_description": "Muške patike za trening",
-    "current_price": "8.899,00"
+    "current_price": "8.899,00",
+    "id": 41,
+    "stock": 17
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/687/687977-111/images/thumbs_350/687977-111_350_350px.jpg",
@@ -333,7 +415,9 @@
     "brand_name": "Nike",
     "title": "Nike Air Max LTD 3",
     "short_description": "Muške lifestyle patike",
-    "current_price": "13.299,00"
+    "current_price": "13.299,00",
+    "id": 42,
+    "stock": 13
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/687/687977-020/images/thumbs_350/687977-020_350_350px.jpg",
@@ -341,7 +425,9 @@
     "brand_name": "Nike",
     "title": "Nike Air Max LTD 3",
     "short_description": "Muške lifestyle patike",
-    "current_price": "13.299,00"
+    "current_price": "13.299,00",
+    "id": 43,
+    "stock": 35
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/DJ7/DJ7883-104/images/thumbs_350/DJ7883-104_350_350px.jpg",
@@ -349,7 +435,9 @@
     "brand_name": "Nike",
     "title": "Nike Structure 25",
     "short_description": "Muške patike za trčanje",
-    "current_price": "12.999,00"
+    "current_price": "12.999,00",
+    "id": 44,
+    "stock": 18
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/DM0/DM0829-013/images/thumbs_350/DM0829-013_350_350px.jpg",
@@ -357,7 +445,9 @@
     "brand_name": "Nike",
     "title": "Nike Air Max Alpha Trainer 5",
     "short_description": "Muške patike za trening",
-    "current_price": "8.959,20"
+    "current_price": "8.959,20",
+    "id": 45,
+    "stock": 11
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/DR2/DR2665-006/images/thumbs_350/DR2665-006_350_350px.jpg",
@@ -365,7 +455,9 @@
     "brand_name": "Nike",
     "title": "Nike React Infinity Run Flyknit 4",
     "short_description": "Muške patike za trčanje",
-    "current_price": "17.599,20"
+    "current_price": "17.599,20",
+    "id": 46,
+    "stock": 11
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/CD1/CD1515-004/images/thumbs_350/CD1515-004_350_350px.jpg",
@@ -373,7 +465,9 @@
     "brand_name": "Nike",
     "title": "Nike AIR MAX INVIGOR",
     "short_description": "Muške lifestyle patike",
-    "current_price": "10.999,00"
+    "current_price": "10.999,00",
+    "id": 47,
+    "stock": 22
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/FN7/FN7304-001/images/thumbs_350/FN7304-001_350_350px.jpg",
@@ -381,7 +475,9 @@
     "brand_name": "Nike",
     "title": "Nike Air Max Excee",
     "short_description": "Muške lifestyle patike",
-    "current_price": "11.999,00"
+    "current_price": "11.999,00",
+    "id": 48,
+    "stock": 47
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/IG3/IG3319/images/thumbs_350/IG3319_350_350px.jpg",
@@ -389,7 +485,9 @@
     "brand_name": "adidas",
     "title": "adidas Adizero Boston 12",
     "short_description": "Muške patike za trčanje",
-    "current_price": "13.999,00"
+    "current_price": "13.999,00",
+    "id": 49,
+    "stock": 48
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/580/580518-011/images/thumbs_350/580518-011_350_350px.jpg",
@@ -397,7 +495,9 @@
     "brand_name": "Nike",
     "title": "Nike Air Max IVO",
     "short_description": "Muške lifestyle patike",
-    "current_price": "13.439,21"
+    "current_price": "13.439,21",
+    "id": 50,
+    "stock": 38
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/ID7/ID7754/images/thumbs_350/ID7754_350_350px.jpg",
@@ -405,7 +505,9 @@
     "brand_name": "adidas",
     "title": "adidas Terrex",
     "short_description": "Ženske outdoor patike",
-    "current_price": "8.999,00"
+    "current_price": "8.999,00",
+    "id": 51,
+    "stock": 46
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/CW4/CW4555-015/images/thumbs_350/CW4555-015_350_350px.jpg",
@@ -413,7 +515,9 @@
     "brand_name": "Nike",
     "title": "Nike Air Max SC",
     "short_description": "Muške lifestyle patike",
-    "current_price": "9.499,00"
+    "current_price": "9.499,00",
+    "id": 52,
+    "stock": 26
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/DR2/DR2665-402/images/thumbs_350/DR2665-402_350_350px.jpg",
@@ -421,7 +525,9 @@
     "brand_name": "Nike",
     "title": "Nike React Infinity Run Flyknit 4",
     "short_description": "Muške patike za trčanje",
-    "current_price": "16.999,00"
+    "current_price": "16.999,00",
+    "id": 53,
+    "stock": 41
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/IF1/IF1548/images/thumbs_350/IF1548_350_350px.jpg",
@@ -429,7 +535,9 @@
     "brand_name": "adidas",
     "title": "adidas Pureboost 23",
     "short_description": "Muške patike za trčanje",
-    "current_price": "11.499,00"
+    "current_price": "11.499,00",
+    "id": 54,
+    "stock": 25
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/FB2/FB2207-005/images/thumbs_350/FB2207-005_350_350px.jpg",
@@ -437,7 +545,9 @@
     "brand_name": "Nike",
     "title": "Nike Revolution 7",
     "short_description": "Muške patike za trčanje",
-    "current_price": "6.799,00"
+    "current_price": "6.799,00",
+    "id": 55,
+    "stock": 12
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/GY5/GY5427/images/thumbs_350/GY5427_350_350px.jpg",
@@ -445,7 +555,9 @@
     "brand_name": "adidas",
     "title": "adidas Hoops 3.0",
     "short_description": "Muške lifestyle patike",
-    "current_price": "6.199,00"
+    "current_price": "6.199,00",
+    "id": 56,
+    "stock": 18
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/394/394055-101/images/thumbs_350/394055-101_350_350px.jpg",
@@ -453,7 +565,9 @@
     "brand_name": "Nike",
     "title": "Nike Initiator",
     "short_description": "Muške lifestyle patike",
-    "current_price": "8.399,00"
+    "current_price": "8.399,00",
+    "id": 57,
+    "stock": 35
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/IG3/IG3584/images/thumbs_350/IG3584_350_350px.jpg",
@@ -461,7 +575,9 @@
     "brand_name": "adidas",
     "title": "adidas Alphabounce+ Sustainable Bounce",
     "short_description": "Muške lifestyle patike",
-    "current_price": "8.499,00"
+    "current_price": "8.499,00",
+    "id": 58,
+    "stock": 44
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/FQ8/FQ8109-331/images/thumbs_350/FQ8109-331_350_350px.jpg",
@@ -469,7 +585,9 @@
     "brand_name": "Nike",
     "title": "Nike Vaporfly 3",
     "short_description": "Muške patike za trčanje",
-    "current_price": "26.319,19"
+    "current_price": "26.319,19",
+    "id": 59,
+    "stock": 18
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/DH2/DH2987-101/images/thumbs_350/DH2987-101_350_350px.jpg",
@@ -477,7 +595,9 @@
     "brand_name": "Nike",
     "title": "Nike Court Vision Low Next Nature",
     "short_description": "Muške lifestyle patike",
-    "current_price": "7.999,00"
+    "current_price": "7.999,00",
+    "id": 60,
+    "stock": 41
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/DR2/DR2615-105/images/thumbs_350/DR2615-105_350_350px.jpg",
@@ -485,7 +605,9 @@
     "brand_name": "Nike",
     "title": "Nike Invincible 3",
     "short_description": "Muške patike za trčanje",
-    "current_price": "19.679,21"
+    "current_price": "19.679,21",
+    "id": 61,
+    "stock": 38
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/DH2/DH2987-100/images/thumbs_350/DH2987-100_350_350px.jpg",
@@ -493,7 +615,9 @@
     "brand_name": "Nike",
     "title": "Nike Court Vision Low Next Nature",
     "short_description": "Muške lifestyle patike",
-    "current_price": "7.999,00"
+    "current_price": "7.999,00",
+    "id": 62,
+    "stock": 14
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/580/580518-106/images/thumbs_350/580518-106_350_350px.jpg",
@@ -501,7 +625,9 @@
     "brand_name": "Nike",
     "title": "Nike Air Max IVO",
     "short_description": "Muške lifestyle patike",
-    "current_price": "13.439,21"
+    "current_price": "13.439,21",
+    "id": 63,
+    "stock": 23
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/FJ2/FJ2594-001/images/thumbs_350/FJ2594-001_350_350px.jpg",
@@ -509,7 +635,9 @@
     "brand_name": "Nike",
     "title": "Nike Air Max Solo",
     "short_description": "Muške lifestyle patike",
-    "current_price": "10.099,00"
+    "current_price": "10.099,00",
+    "id": 64,
+    "stock": 11
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/ID3/ID3489/images/thumbs_350/ID3489_350_350px.jpg",
@@ -517,7 +645,9 @@
     "brand_name": "adidas",
     "title": "adidas 4DFWD 3",
     "short_description": "Muške patike za trčanje",
-    "current_price": "19.999,00"
+    "current_price": "19.999,00",
+    "id": 65,
+    "stock": 13
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/CK2/CK2944-400/images/thumbs_350/CK2944-400_350_350px.jpg",
@@ -525,7 +655,9 @@
     "brand_name": "Nike",
     "title": "Nike Venture Runner",
     "short_description": "Muške lifestyle patike",
-    "current_price": "7.899,00"
+    "current_price": "7.899,00",
+    "id": 66,
+    "stock": 42
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/IG3/IG3321/images/thumbs_350/IG3321_350_350px.jpg",
@@ -533,7 +665,9 @@
     "brand_name": "adidas",
     "title": "adidas Adizero Boston 12",
     "short_description": "Muške patike za trčanje",
-    "current_price": "14.999,00"
+    "current_price": "14.999,00",
+    "id": 67,
+    "stock": 41
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/DM0/DM0823-011/images/thumbs_350/DM0823-011_350_350px.jpg",
@@ -541,7 +675,9 @@
     "brand_name": "Nike",
     "title": "Nike",
     "short_description": "Muške patike za trening",
-    "current_price": "7.899,00"
+    "current_price": "7.899,00",
+    "id": 68,
+    "stock": 33
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/DV3/DV3853-006/images/thumbs_350/DV3853-006_350_350px.jpg",
@@ -549,7 +685,9 @@
     "brand_name": "Nike",
     "title": "Nike Air Zoom Pegasus 40",
     "short_description": "Muške patike za trčanje",
-    "current_price": "12.999,00"
+    "current_price": "12.999,00",
+    "id": 69,
+    "stock": 26
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/FD2/FD2291-401/images/thumbs_350/FD2291-401_350_350px.jpg",
@@ -557,7 +695,9 @@
     "brand_name": "Nike",
     "title": "Nike Interact Run",
     "short_description": "Muške patike za trčanje",
-    "current_price": "9.499,00"
+    "current_price": "9.499,00",
+    "id": 70,
+    "stock": 40
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/ID2/ID2635/images/thumbs_350/ID2635_350_350px.jpg",
@@ -565,7 +705,9 @@
     "brand_name": "adidas",
     "title": "adidas Switch Forward",
     "short_description": "Muške patike za trčanje",
-    "current_price": "10.999,00"
+    "current_price": "10.999,00",
+    "id": 71,
+    "stock": 25
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/CW4/CW4555-002/images/thumbs_350/CW4555-002_350_350px.jpg",
@@ -573,7 +715,9 @@
     "brand_name": "Nike",
     "title": "Nike Air Max SC",
     "short_description": "Muške lifestyle patike",
-    "current_price": "9.499,00"
+    "current_price": "9.499,00",
+    "id": 72,
+    "stock": 16
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/IF0/IF0954/images/thumbs_350/IF0954_350_350px.jpg",
@@ -581,7 +725,9 @@
     "brand_name": "adidas",
     "title": "adidas Amplimove Trainer",
     "short_description": "Muške patike za trening",
-    "current_price": "6.699,00"
+    "current_price": "6.699,00",
+    "id": 73,
+    "stock": 11
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/DM8/DM8968-101/images/thumbs_350/DM8968-101_350_350px.jpg",
@@ -589,7 +735,9 @@
     "brand_name": "Nike",
     "title": "Nike Zoom Fly 5",
     "short_description": "Muške patike za trčanje",
-    "current_price": "17.599,20"
+    "current_price": "17.599,20",
+    "id": 74,
+    "stock": 48
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/GW4/GW4138/images/thumbs_350/GW4138_350_350px.jpg",
@@ -597,7 +745,9 @@
     "brand_name": "adidas",
     "title": "adidas Galaxy 6",
     "short_description": "Muške patike za trčanje",
-    "current_price": "4.999,00"
+    "current_price": "4.999,00",
+    "id": 75,
+    "stock": 34
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/FB2/FB2067-403/images/thumbs_350/FB2067-403_350_350px.jpg",
@@ -605,7 +755,9 @@
     "brand_name": "Nike",
     "title": "Nike Juniper Trail 2 Gore-Tex",
     "short_description": "Muške patike za trčanje",
-    "current_price": "10.999,00"
+    "current_price": "10.999,00",
+    "id": 76,
+    "stock": 40
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/IG8/IG8985/images/thumbs_350/IG8985_350_350px.jpg",
@@ -613,7 +765,9 @@
     "brand_name": "adidas",
     "title": "adidas 4DFWD 3",
     "short_description": "Muške patike za trčanje",
-    "current_price": "18.999,00"
+    "current_price": "18.999,00",
+    "id": 77,
+    "stock": 29
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/IF0/IF0960/images/thumbs_350/IF0960_350_350px.jpg",
@@ -621,7 +775,9 @@
     "brand_name": "adidas",
     "title": "adidas Rapidmove ADV Trainer",
     "short_description": "Muške patike za trening",
-    "current_price": "10.299,00"
+    "current_price": "10.299,00",
+    "id": 78,
+    "stock": 38
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/ID9/ID9849/images/thumbs_350/ID9849_350_350px.jpg",
@@ -629,7 +785,9 @@
     "brand_name": "adidas",
     "title": "adidas Duramo SL",
     "short_description": "Muške patike za trčanje",
-    "current_price": "5.999,00"
+    "current_price": "5.999,00",
+    "id": 79,
+    "stock": 24
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/IE5/IE5475/images/thumbs_350/IE5475_350_350px.jpg",
@@ -637,7 +795,9 @@
     "brand_name": "adidas",
     "title": "adidas Duramo Speed",
     "short_description": "Muške patike za trčanje",
-    "current_price": "7.499,00"
+    "current_price": "7.499,00",
+    "id": 80,
+    "stock": 26
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/IE5/IE5476/images/thumbs_350/IE5476_350_350px.jpg",
@@ -645,7 +805,9 @@
     "brand_name": "adidas",
     "title": "adidas Duramo Speed",
     "short_description": "Muške patike za trčanje",
-    "current_price": "8.499,00"
+    "current_price": "8.499,00",
+    "id": 81,
+    "stock": 31
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/GW4/GW4139/images/thumbs_350/GW4139_350_350px.jpg",
@@ -653,7 +815,9 @@
     "brand_name": "adidas",
     "title": "adidas Galaxy 6",
     "short_description": "Muške patike za trčanje",
-    "current_price": "4.999,00"
+    "current_price": "4.999,00",
+    "id": 82,
+    "stock": 44
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/ID7/ID7249/images/thumbs_350/ID7249_350_350px.jpg",
@@ -661,7 +825,9 @@
     "brand_name": "adidas",
     "title": "adidas Adizero Boston 12",
     "short_description": "Muške patike za trčanje",
-    "current_price": "14.999,00"
+    "current_price": "14.999,00",
+    "id": 83,
+    "stock": 25
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/IG3/IG3114/images/thumbs_350/IG3114_350_350px.jpg",
@@ -669,7 +835,9 @@
     "brand_name": "adidas",
     "title": "adidas Barricade 13",
     "short_description": "Muške patike za tenis",
-    "current_price": "13.999,00"
+    "current_price": "13.999,00",
+    "id": 84,
+    "stock": 21
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/IG1/IG1179/images/thumbs_350/IG1179_350_350px.jpg",
@@ -677,7 +845,9 @@
     "brand_name": "adidas",
     "title": "adidas Run 60s",
     "short_description": "Muške lifestyle patike",
-    "current_price": "5.699,00"
+    "current_price": "5.699,00",
+    "id": 85,
+    "stock": 39
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/GZ0/GZ0069/images/thumbs_350/GZ0069_350_350px.jpg",
@@ -685,7 +855,9 @@
     "brand_name": "adidas",
     "title": "adidas Ligra 7",
     "short_description": "Muške patike za indoor",
-    "current_price": "5.999,00"
+    "current_price": "5.999,00",
+    "id": 86,
+    "stock": 26
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/HP2/HP2255/images/thumbs_350/HP2255_350_350px.jpg",
@@ -693,7 +865,9 @@
     "brand_name": "adidas",
     "title": "adidas Run 60s",
     "short_description": "Muške lifestyle patike",
-    "current_price": "5.699,00"
+    "current_price": "5.699,00",
+    "id": 87,
+    "stock": 34
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/FZ4/FZ4658/images/thumbs_350/FZ4658_350_350px.jpg",
@@ -701,7 +875,9 @@
     "brand_name": "adidas",
     "title": "adidas Ligra 7",
     "short_description": "Muške patike za indoor",
-    "current_price": "6.699,00"
+    "current_price": "6.699,00",
+    "id": 88,
+    "stock": 40
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/GX3/GX3090/images/thumbs_350/GX3090_350_350px.jpg",
@@ -709,7 +885,9 @@
     "brand_name": "adidas",
     "title": "adidas Run 70s",
     "short_description": "Muške lifestyle patike",
-    "current_price": "6.699,00"
+    "current_price": "6.699,00",
+    "id": 89,
+    "stock": 18
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/EG2/EG2654/images/thumbs_350/EG2654_350_350px.jpg",
@@ -717,7 +895,9 @@
     "brand_name": "adidas",
     "title": "adidas Strutter",
     "short_description": "Muške lifestyle patike",
-    "current_price": "5.799,00"
+    "current_price": "5.799,00",
+    "id": 90,
+    "stock": 43
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/GY5/GY5432/images/thumbs_350/GY5432_350_350px.jpg",
@@ -725,7 +905,9 @@
     "brand_name": "adidas",
     "title": "adidas Hoops 3.0",
     "short_description": "Muške lifestyle patike",
-    "current_price": "6.199,00"
+    "current_price": "6.199,00",
+    "id": 91,
+    "stock": 40
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/EG2/EG2655/images/thumbs_350/EG2655_350_350px.jpg",
@@ -733,6 +915,8 @@
     "brand_name": "adidas",
     "title": "adidas Strutter",
     "short_description": "Muške lifestyle patike",
-    "current_price": "5.799,00"
+    "current_price": "5.799,00",
+    "id": 92,
+    "stock": 25
   }
 ]
