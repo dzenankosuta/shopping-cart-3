@@ -1,35 +1,40 @@
 /* eslint-disable react/prop-types */
-import { Card, Image, Text } from "@mantine/core";
+import { Card, Image, Text, Button } from "@mantine/core";
 import "./ProductCard.css";
-import { Button } from "@mantine/core";
 import { FaShoppingCart } from "react-icons/fa";
-
-export default function ProductCard({ imageUrl, product, description, price }) {
+export default function ProductCard({
+  imageUrl,
+  description,
+  title,
+  price,
+  onClick,
+}) {
   return (
     <Card
-      className="product-card"
       shadow="sm"
       padding="xl"
       component="a"
       target="_blank"
+      className="product"
     >
       <Card.Section>
-        <Image src={imageUrl} h={60} alt="No way!" className="img" />
+        <Image className="img" src={imageUrl} alt="No way!" />
       </Card.Section>
-
-      <Text fw={500} size="lg" mt="md">
-        {product}
-      </Text>
-      <Text mt="xs" c="dimmed" size="sm">
-        {description}
-      </Text>
-      <Text mt="xs" c="dimmed" size="sm">
-        {price}
-      </Text>
-      <Button className="btn-card" onClick={() => {}}>
-        <FaShoppingCart className="icon icon-card" />
-        Add To Cart
-      </Button>
+      <div className="info">
+        <Text className="naslov" mt="xs" size="sm">
+          {title}
+        </Text>
+        <Text className="description" mt="xs" size="sm">
+          {description}
+        </Text>
+        <Text className="price" mt="xs" size="lg">
+          {price}
+        </Text>
+        <Button className="cart-button" mt="md" radius="md" onClick={onClick}>
+          <FaShoppingCart className="shopping-cart" />
+          Add To Cart
+        </Button>
+      </div>
     </Card>
   );
 }

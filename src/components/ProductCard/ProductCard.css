@@ -1,28 +1,49 @@
-.product-card {
-  padding: 40px;
-  border: 2px solid gray;
-  width: 300px;
-  height: 400px;
+.product {
   display: flex;
   flex-direction: column;
-  border-radius: 10px;
-  box-shadow: 0 0 20px 5px gray;
+  min-height: 300px;
+  width: 250px;
+  border-radius: 1em;
+  box-shadow: 0 0 20px 5px grey;
 }
 
 .img {
   width: 100%;
-  border-radius: 10px;
+  border-top-left-radius: 1em;
+  border-top-right-radius: 1em;
 }
-.btn-card {
+
+.info {
+  display: grid;
+  grid-template-rows: 50px 1fr 1fr;
+  margin: 1em;
+}
+
+.naslov {
+  color: black;
+}
+
+.description {
+  color: #838386;
+}
+
+.price {
+  font-size: larger;
+  color: #1e1e32;
+  margin-bottom: 5px;
+}
+
+.cart-button {
+  background-color: #003366;
+}
+
+.mantine-Button-label {
   display: flex;
-  height: 100px;
   align-items: center;
   justify-content: center;
-  gap: 20px;
-  position: relative;
+  gap: 1em;
 }
-.icon-card {
-  position: absolute;
-  left: 10px;
-  bottom: 5px;
+
+.shopping-cart {
+  font-size: 1.25em;
 }
