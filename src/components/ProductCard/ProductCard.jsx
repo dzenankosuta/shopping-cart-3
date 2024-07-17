@@ -2,13 +2,27 @@
 import { Card, Image, Text, Button } from "@mantine/core";
 import "./ProductCard.css";
 import { FaShoppingCart } from "react-icons/fa";
+import { useContext } from "react";
+import { AppContext } from "../../context/AppContext";
 export default function ProductCard({
   imageUrl,
   description,
   title,
-  price,
   onClick,
+  product,
+  price,
+  discount = false,
+  discountedPrice = 0,
 }) {
+  const { productsInCart } = useContext(AppContext);
+
+  const productInCart = productsInCart.find((item) => item.id === product.id);
+
+  const formattedPrice = new Intl.NumberFormat("de-DE", {
+    minimumFractionDigits: 2,
+    maximumFractionDigits: 2,
+  }).format(discountedPrice);
+
   return (
     <Card
       shadow="sm"
@@ -24,15 +38,21 @@ export default function ProductCard({
         <Text className="naslov" mt="xs" size="sm">
           {title}
         </Text>
+        <Text className="price" mt="xs" size="sm">
+          {discount ? (
+            <span>
+              <del>{price}</del> {formattedPrice}
+            </span>
+          ) : (
+            price
+          )}
+        </Text>
         <Text className="description" mt="xs" size="sm">
           {description}
         </Text>
-        <Text className="price" mt="xs" size="lg">
-          {price}
-        </Text>
         <Button className="cart-button" mt="md" radius="md" onClick={onClick}>
           <FaShoppingCart className="shopping-cart" />
-          Add To Cart
+          {productInCart ? "Remove from cart" : "Add to cart"}
         </Button>
       </div>
     </Card>

@@ -23,14 +23,13 @@
   color: black;
 }
 
+.price {
+  color: black;
+  display: flex;
+  gap: 1em;
+}
 .description {
   color: #838386;
-}
-
-.price {
-  font-size: larger;
-  color: #1e1e32;
-  margin-bottom: 5px;
 }
 
 .cart-button {
