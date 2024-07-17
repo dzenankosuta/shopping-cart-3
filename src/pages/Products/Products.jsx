@@ -1,4 +1,3 @@
-/* eslint-disable react/jsx-key */
 import ProductCard from "../../components/ProductCard/ProductCard";
 import products from "../../common/products.json";
 import "./Products.css";
@@ -6,7 +5,8 @@ import { useContext, useEffect, useState } from "react";
 import Pagination from "../../components/Pagination/Pagination";
 import { AppContext } from "../../context/AppContext";
 export default function Products() {
-  const { addToCart } = useContext(AppContext);
+  const { addToCart, productsInCart, removeFromCart } = useContext(AppContext);
+
   const [page, setPage] = useState(1);
   const proizvod = products.length;
   const brojPoStranici = 15;
@@ -17,18 +17,30 @@ export default function Products() {
       top: 0,
     });
   }, [page]);
+
   return (
     <>
       <div className="wrapper-product">
         {products
           .map((product) => {
+            const productInCart = productsInCart.find(
+              (item) => item.id === product.id
+            );
             return (
               <ProductCard
+                key={product.id}
                 imageUrl={product.image_url}
                 description={product.short_description}
                 title={product.title}
+                onClick={() => {
+                  if (productInCart) {
+                    removeFromCart(product);
+                  } else {
+                    addToCart(product);
+                  }
+                }}
+                product={product}
                 price={product.current_price}
-                onClick={() => addToCart(product)}
               />
             );
           })
