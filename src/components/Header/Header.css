@@ -56,3 +56,21 @@ header {
 .icon {
   font-size: 1.5em;
 }
+
+.num-in-cart {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  background-color: #ffffff;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.num-in-cart-num {
+  font-size: 16px;
+  color: #f47422 !important;
+}

@@ -2,8 +2,11 @@ import "./Header.css";
 import logo from "../../assets/shopping-logo.svg";
 import { FaShoppingCart } from "react-icons/fa";
 import { NavLink } from "react-router-dom";
+import { useContext } from "react";
+import { AppContext } from "../../context/AppContext";
 
 export default function Header() {
+  const { productsInCart } = useContext(AppContext);
   return (
     <header>
       <div className="wrapper">
@@ -40,7 +43,12 @@ export default function Header() {
               isActive ? "navlink-active" : "navlink-not-active"
             }
           >
-            <li>
+            <li style={{ position: "relative" }}>
+              {productsInCart.length > 0 && (
+                <div className="num-in-cart">
+                  <p className="num-in-cart-num">{productsInCart.length}</p>
+                </div>
+              )}
               <FaShoppingCart className="icon" />
             </li>
           </NavLink>
