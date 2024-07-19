@@ -32,6 +32,11 @@ export default function Outlet() {
               numPrice -
               (product.percentage / 100) * numPrice
             ).toFixed(2);
+
+            const formattedPrice = new Intl.NumberFormat("de-DE", {
+              minimumFractionDigits: 2,
+              maximumFractionDigits: 2,
+            }).format(newPrice);
             return (
               <ProductCard
                 key={product.id}
@@ -42,7 +47,7 @@ export default function Outlet() {
                   if (productInCart) {
                     removeFromCart(product);
                   } else {
-                    addToCart(product);
+                    addToCart({ ...product, discountedPrice: formattedPrice });
                   }
                 }}
                 product={product}
