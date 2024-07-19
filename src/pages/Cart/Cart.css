@@ -1,0 +1,45 @@
+.wrapper-page {
+  width: 100%;
+  min-height: 70vh;
+  display: flex;
+  justify-content: center;
+  margin-top: 2em;
+}
+
+.wrapper-cart {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+
+.wrapper-cart > h1 {
+  font-size: 2em;
+  height: 50px;
+  color: #003366;
+  justify-self: start;
+}
+
+.error {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5em;
+}
+
+.error > h2 {
+  font-size: 1.5em;
+  color: #003366;
+}
+.error > p {
+  color: #838386;
+  font-size: 1.3em;
+}
+
+.error-img {
+  width: 45%;
+  height: 60vh;
+  object-fit: cover;
+}
