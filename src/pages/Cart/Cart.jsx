@@ -6,6 +6,9 @@ import shopPhoto from "../../assets/shop.jpg";
 import "./Cart.css";
 import { Link } from "react-router-dom";
 import { formattedPrice } from "../../utils/formattedPrice";
+import { modals } from "@mantine/modals";
+import { Text } from "@mantine/core";
+
 export default function Cart() {
   const { productsInCart, removeFromCart, decrementProduct, incrementProduct } =
     useContext(AppContext);
@@ -20,6 +23,21 @@ export default function Cart() {
     }
     return acc + newPrice;
   }, 0);
+
+  const openDeleteModal = (product) =>
+    modals.openConfirmModal({
+      title: "Remove product",
+      centered: true,
+      children: (
+        <Text size="sm">
+          Are you sure you want to remove this product from cart?
+        </Text>
+      ),
+      labels: { confirm: "Remove", cancel: "No" },
+      confirmProps: { color: "red" },
+      onCancel: () => {},
+      onConfirm: () => removeFromCart(product),
+    });
 
   return (
     <div className="wrapper-page">
@@ -47,7 +65,7 @@ export default function Cart() {
                     : product.current_price
                 }
                 description={product.short_description}
-                onClick={() => removeFromCart(product)}
+                onClick={() => openDeleteModal(product)}
                 quantity={product.quantity}
                 decrementProduct={() => decrementProduct(product)}
                 incrementProduct={() => incrementProduct(product)}
