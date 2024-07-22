@@ -4,6 +4,7 @@ import "./Outlet.css";
 import { useContext, useEffect, useState } from "react";
 import Pagination from "../../components/Pagination/Pagination";
 import { AppContext } from "../../context/AppContext";
+import { formattedPrice } from "../../utils/formattedPrice";
 export default function Outlet() {
   const { addToCart, productsInCart, removeFromCart } = useContext(AppContext);
 
@@ -28,15 +29,7 @@ export default function Outlet() {
 
             const strPrice = product.current_price;
             const numPrice = +strPrice.replace(".", "").replace(",", ".");
-            const newPrice = (
-              numPrice -
-              (product.percentage / 100) * numPrice
-            ).toFixed(2);
-
-            const formattedPrice = new Intl.NumberFormat("de-DE", {
-              minimumFractionDigits: 2,
-              maximumFractionDigits: 2,
-            }).format(newPrice);
+            const newPrice = numPrice - (product.percentage / 100) * numPrice;
             return (
               <ProductCard
                 key={product.id}
@@ -47,7 +40,10 @@ export default function Outlet() {
                   if (productInCart) {
                     removeFromCart(product);
                   } else {
-                    addToCart({ ...product, discountedPrice: formattedPrice });
+                    addToCart({
+                      ...product,
+                      discountedPrice: formattedPrice(newPrice),
+                    });
                   }
                 }}
                 product={product}

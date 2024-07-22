@@ -5,6 +5,7 @@ import CartCard from "../../components/CartCard/CartCard";
 import shopPhoto from "../../assets/shop.jpg";
 import "./Cart.css";
 import { Link } from "react-router-dom";
+import { formattedPrice } from "../../utils/formattedPrice";
 export default function Cart() {
   const { productsInCart, removeFromCart, decrementProduct, incrementProduct } =
     useContext(AppContext);
@@ -12,13 +13,14 @@ export default function Cart() {
     let newPrice;
     if (curr.discountedPrice) {
       const strPrice = curr.discountedPrice;
-      newPrice = +strPrice.replace(".", "").replace(",", ".");
+      newPrice = +strPrice.replace(".", "").replace(",", ".") * curr.quantity;
     } else {
       const strPrice = curr.current_price;
-      newPrice = +strPrice.replace(".", "").replace(",", ".");
+      newPrice = +strPrice.replace(".", "").replace(",", ".") * curr.quantity;
     }
     return acc + newPrice;
   }, 0);
+
   return (
     <div className="wrapper-page">
       {productsInCart.length < 1 ? (
@@ -52,7 +54,7 @@ export default function Cart() {
               />
             );
           })}
-          <h1>Total amount: {totalAmount}</h1>
+          <h1>Total amount: {formattedPrice(totalAmount)}</h1>
         </div>
       )}
     </div>

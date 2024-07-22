@@ -4,6 +4,7 @@ import "./ProductCard.css";
 import { FaShoppingCart } from "react-icons/fa";
 import { useContext } from "react";
 import { AppContext } from "../../context/AppContext";
+import { formattedPrice } from "../../utils/formattedPrice";
 export default function ProductCard({
   imageUrl,
   description,
@@ -15,14 +16,7 @@ export default function ProductCard({
   discountedPrice = 0,
 }) {
   const { productsInCart } = useContext(AppContext);
-
   const productInCart = productsInCart.find((item) => item.id === product.id);
-
-  const formattedPrice = new Intl.NumberFormat("de-DE", {
-    minimumFractionDigits: 2,
-    maximumFractionDigits: 2,
-  }).format(discountedPrice);
-
   return (
     <Card
       shadow="sm"
@@ -41,7 +35,7 @@ export default function ProductCard({
         <Text className="price" mt="xs" size="sm">
           {discount ? (
             <span>
-              <del>{price}</del> {formattedPrice}
+              <del>{price}</del> {formattedPrice(discountedPrice)}
             </span>
           ) : (
             price
