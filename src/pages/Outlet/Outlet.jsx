@@ -5,6 +5,7 @@ import { useContext, useEffect, useState } from "react";
 import Pagination from "../../components/Pagination/Pagination";
 import { AppContext } from "../../context/AppContext";
 import { formattedPrice } from "../../utils/formattedPrice";
+import { notifications } from "@mantine/notifications";
 export default function Outlet() {
   const { addToCart, productsInCart, removeFromCart } = useContext(AppContext);
 
@@ -39,10 +40,20 @@ export default function Outlet() {
                 onClick={() => {
                   if (productInCart) {
                     removeFromCart(product);
+                    notifications.show({
+                      title: "You successfully removed product from cart!",
+                      message: "You can go to cart to check it out!",
+                      color: "red",
+                    });
                   } else {
                     addToCart({
                       ...product,
                       discountedPrice: formattedPrice(newPrice),
+                    });
+                    notifications.show({
+                      title: "You successfully added product in cart!",
+                      message: "You can go to cart to check it out!",
+                      color: "green",
                     });
                   }
                 }}

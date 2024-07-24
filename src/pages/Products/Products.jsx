@@ -4,9 +4,9 @@ import "./Products.css";
 import { useContext, useEffect, useState } from "react";
 import Pagination from "../../components/Pagination/Pagination";
 import { AppContext } from "../../context/AppContext";
+import { notifications } from "@mantine/notifications";
 export default function Products() {
   const { addToCart, productsInCart, removeFromCart } = useContext(AppContext);
-
   const [page, setPage] = useState(1);
   const proizvod = products.length;
   const brojPoStranici = 15;
@@ -35,8 +35,18 @@ export default function Products() {
                 onClick={() => {
                   if (productInCart) {
                     removeFromCart(product);
+                    notifications.show({
+                      title: "You successfully removed product from cart!",
+                      message: "You can go to cart to check it out!",
+                      color: "red",
+                    });
                   } else {
                     addToCart(product);
+                    notifications.show({
+                      title: "You successfully added product in cart!",
+                      message: "You can go to cart to check it out!",
+                      color: "green",
+                    });
                   }
                 }}
                 product={product}

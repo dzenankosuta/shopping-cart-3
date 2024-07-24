@@ -6,7 +6,8 @@ import Home from "./pages/Home/Home";
 import Products from "./pages/Products/Products";
 import Outlet from "./pages/Outlet/Outlet";
 import Cart from "./pages/Cart/Cart";
-
+import "@mantine/notifications/styles.css";
+import "@mantine/core/styles.css";
 function App() {
   return (
     <div>

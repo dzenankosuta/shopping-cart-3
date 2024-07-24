@@ -5,16 +5,16 @@ import "./index.css";
 import { BrowserRouter } from "react-router-dom";
 import { MantineProvider } from "@mantine/core";
 import { ContextProvider } from "./context/AppContext.jsx";
-import { ModalsProvider } from "@mantine/modals";
+import "@mantine/notifications/styles.css";
+import { Notifications } from "@mantine/notifications";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <BrowserRouter>
       <MantineProvider>
         <ContextProvider>
-          <ModalsProvider>
-            <App />
-          </ModalsProvider>
+          <Notifications />
+          <App />
         </ContextProvider>
       </MantineProvider>
     </BrowserRouter>

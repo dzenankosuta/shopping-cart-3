@@ -7,6 +7,7 @@ import "./Cart.css";
 import { Link } from "react-router-dom";
 import { formattedPrice } from "../../utils/formattedPrice";
 import Modal from "../../components/Modal/Modal";
+import { notifications } from "@mantine/notifications";
 
 export default function Cart() {
   const { productsInCart, removeFromCart, decrementProduct, incrementProduct } =
@@ -34,6 +35,11 @@ export default function Cart() {
   const handleConfirmRemove = () => {
     if (productToRemove) {
       removeFromCart(productToRemove);
+      notifications.show({
+        title: "You successfully removed product from cart!",
+        message: "",
+        color: "red",
+      });
     }
     setIsModalOpen(false);
     setProductToRemove(null);
