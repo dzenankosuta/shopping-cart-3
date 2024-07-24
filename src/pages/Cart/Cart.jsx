@@ -1,17 +1,19 @@
 /* eslint-disable react/jsx-key */
-import { useContext } from "react";
+import { useContext, useState } from "react";
 import { AppContext } from "../../context/AppContext";
 import CartCard from "../../components/CartCard/CartCard";
 import shopPhoto from "../../assets/shop.jpg";
 import "./Cart.css";
 import { Link } from "react-router-dom";
 import { formattedPrice } from "../../utils/formattedPrice";
-import { modals } from "@mantine/modals";
-import { Text } from "@mantine/core";
+import Modal from "../../components/Modal/Modal";
 
 export default function Cart() {
   const { productsInCart, removeFromCart, decrementProduct, incrementProduct } =
     useContext(AppContext);
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [productToRemove, setProductToRemove] = useState(null);
+
   const totalAmount = productsInCart.reduce((acc, curr) => {
     let newPrice;
     if (curr.discountedPrice) {
@@ -24,20 +26,23 @@ export default function Cart() {
     return acc + newPrice;
   }, 0);
 
-  const openDeleteModal = (product) =>
-    modals.openConfirmModal({
-      title: "Remove product",
-      centered: true,
-      children: (
-        <Text size="sm">
-          Are you sure you want to remove this product from cart?
-        </Text>
-      ),
-      labels: { confirm: "Remove", cancel: "No" },
-      confirmProps: { color: "red" },
-      onCancel: () => {},
-      onConfirm: () => removeFromCart(product),
-    });
+  const handleRemoveClick = (product) => {
+    setProductToRemove(product);
+    setIsModalOpen(true);
+  };
+
+  const handleConfirmRemove = () => {
+    if (productToRemove) {
+      removeFromCart(productToRemove);
+    }
+    setIsModalOpen(false);
+    setProductToRemove(null);
+  };
+
+  const handleCancelRemove = () => {
+    setIsModalOpen(false);
+    setProductToRemove(null);
+  };
 
   return (
     <div className="wrapper-page">
@@ -65,7 +70,7 @@ export default function Cart() {
                     : product.current_price
                 }
                 description={product.short_description}
-                onClick={() => openDeleteModal(product)}
+                onClick={() => handleRemoveClick(product)}
                 quantity={product.quantity}
                 decrementProduct={() => decrementProduct(product)}
                 incrementProduct={() => incrementProduct(product)}
@@ -74,6 +79,9 @@ export default function Cart() {
           })}
           <h1>Total amount: {formattedPrice(totalAmount)}</h1>
         </div>
+      )}
+      {isModalOpen && (
+        <Modal onConfirm={handleConfirmRemove} onCancel={handleCancelRemove} />
       )}
     </div>
   );
