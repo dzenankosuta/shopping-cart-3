@@ -6,15 +6,18 @@ const AppContext = createContext();
 function ContextProvider({ children }) {
   const [productsInCart, setProductsInCart] = useState([]);
   const addToCart = (product) => {
-    setProductsInCart((prevProducts) => [
-      ...prevProducts,
+    const newProducts = [
+      ...productsInCart,
       { ...product, stock: product.stock - 1, quantity: 1 },
-    ]);
+    ];
+    setProductsInCart(newProducts);
+    localStorage.setItem("productsInCart", JSON.stringify(newProducts));
   };
 
   const removeFromCart = (product) => {
     const newProducts = productsInCart.filter((item) => item.id !== product.id);
     setProductsInCart(newProducts);
+    localStorage.setItem("productsInCart", JSON.stringify(newProducts));
   };
 
   const decrementProduct = (product) => {
@@ -30,6 +33,7 @@ function ContextProvider({ children }) {
       }
     });
     setProductsInCart(newCartProducts);
+    localStorage.setItem("productsInCart", JSON.stringify(newCartProducts));
   };
 
   const incrementProduct = (product) => {
@@ -45,6 +49,7 @@ function ContextProvider({ children }) {
       }
     });
     setProductsInCart(newCartProducts);
+    localStorage.setItem("productsInCart", JSON.stringify(newCartProducts));
   };
 
   const values = {

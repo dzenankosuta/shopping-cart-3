@@ -8,7 +8,19 @@ import Outlet from "./pages/Outlet/Outlet";
 import Cart from "./pages/Cart/Cart";
 import "@mantine/notifications/styles.css";
 import "@mantine/core/styles.css";
+import { useContext, useEffect } from "react";
+import { AppContext } from "./context/AppContext";
 function App() {
+  const { setProductsInCart } = useContext(AppContext);
+  useEffect(() => {
+    const localProductsInCart = JSON.parse(
+      localStorage.getItem("productsInCart")
+    );
+    if (localProductsInCart) {
+      setProductsInCart(localProductsInCart);
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
   return (
     <div>
       <Header />
